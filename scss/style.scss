@@ -108,14 +108,14 @@ body {
             font-size: 0.8;
             width: 100px;
             height:30px; 
-
-            
-
         }
 
 
     }
 }
+
+            
+
 
 #about {
     width: 100%;
@@ -206,14 +206,42 @@ body {
     border-radius: 100px;
    }
 
-
 }
-    :nth-child(2) p {
+
+
+    :nth-child(2) {
+        display:flex; 
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: white;
+
+
+   
+    
+    p {
         width: 700px;
         height: 100px;
         background: purple;
         text-align: center;
-    
+        padding-top: 20px;
+        font-weight: 400;
+      
+        
+    }
+    h5 {
+        font-size:large;
+        font-weight: 700;
     }
 
+
+ }
+
+}
+
+#services {
+    display:flex; 
+    justify-content: center; 
+    align-items: center;
+    flex-direction:row;
 }

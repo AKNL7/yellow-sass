@@ -113,8 +113,25 @@ body {
       color: white; }
     #testimonials > div img {
       border-radius: 100px; }
-  #testimonials :nth-child(2) p {
-    width: 700px;
-    height: 100px;
-    background: purple;
-    text-align: center; }
+  #testimonials :nth-child(2) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white; }
+    #testimonials :nth-child(2) p {
+      width: 700px;
+      height: 100px;
+      background: purple;
+      text-align: center;
+      padding-top: 20px;
+      font-weight: 400; }
+    #testimonials :nth-child(2) h5 {
+      font-size: large;
+      font-weight: 700; }
+
+#services {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; }
