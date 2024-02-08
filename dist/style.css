@@ -44,7 +44,7 @@ body {
       font-size: 5rem;
       font-weight: bold; }
     #home > div span {
-      color: yellow; }
+      color: #ffb81c; }
     #home > div h5 {
       font-weight: 200;
       font-size: 1rem;
@@ -122,7 +122,7 @@ body {
     #testimonials :nth-child(2) p {
       width: 700px;
       height: 100px;
-      background: purple;
+      background-color: #6a4d8a;
       text-align: center;
       padding-top: 20px;
       font-weight: 400; }
@@ -131,7 +131,97 @@ body {
       font-weight: 700; }
 
 #services {
+  width: 100%;
+  min-height: 50vh; }
+  #services > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 4%;
+    margin-right: 10px;
+    margin-left: 10px; }
+    #services > div h2 {
+      font-weight: bold; }
+    #services > div p {
+      font-weight: 300; }
+  #services :nth-child(2) {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center; }
+    #services :nth-child(2) > article {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin-left: 10%;
+      margin-right: 10%;
+      gap: 10px; }
+    #services :nth-child(2) p {
+      text-align: center;
+      padding: 5px; }
+
+#news {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #222f36; }
+  #news > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5%;
+    align-content: center; }
+    #news > div > h2 {
+      padding-bottom: 10px;
+      color: white;
+      font-weight: bold; }
+    #news > div > p {
+      color: white; }
+    #news > div button {
+      background-color: #ffb81c;
+      color: white;
+      text-align: center;
+      width: 15%;
+      height: 50px;
+      margin-top: 50px;
+      border-radius: 5px; }
+  #news div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%; }
+    #news div article {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      border: 1px solid white;
+      width: 359px;
+      height: 300px;
+      background-color: white; }
+    #news div img {
+      width: fit-content; }
+
+footer {
+  background-color: black;
+  color: white;
   display: flex;
   justify-content: center;
-  align-items: center;
-  flex-direction: row; }
+  min-height: 40vh; }
+  footer > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 80px; }
+  footer article ul li {
+    list-style-type: none; }
+  footer div p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; }
